@@ -1,0 +1,44 @@
+index.css
+/* src/index.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  /* background-image: url("https://www.alwafaagroup.com/wp-content/uploads/2021/03/clinic-hospital-doctors-booking-engine-dubai.jpg"); */
+  background-image: url("https://cdn.dayschedule.com/img/solutions/doctor-scheduling-software.png");
+  background-color: rgba(247, 246, 255, 0.807);
+  
+
+}
+/* Style the video to fill the screen */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Keep it behind content */
+  object-fit: cover;
+}
+/* Content above the video */
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
